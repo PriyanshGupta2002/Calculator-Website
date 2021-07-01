@@ -1,0 +1,81 @@
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to left, #2E3192 , #1BFFFF);
+}
+/* Designing of header  */
+#head{
+background-image: linear-gradient(to right, #ddd6f3 , #faaca8);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: 17px 7px ;
+}
+#head h3{
+    
+    font-size:2.4rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-gap: 5px;
+    margin: 23px 3px;
+    height: 515px;
+}
+
+
+/* Designing of  simple and complex calculator */
+#simple-sec{
+background-image: linear-gradient(to right, #dd5e89 , #f7bb97
+);
+}
+#complex-sec{
+    background-image: linear-gradient(-45deg,#fc575e,#90d5ec
+    );
+
+}
+.center{
+    text-align: center;
+    text-shadow: 2px 1px rgb(219, 112, 73) ;
+}
+.head-size{
+    font-size: 2.1rem;
+}
+.math{
+    display: flex;
+    flex-direction: column;
+}
+.padding{
+    padding: 6px 5px;
+}
+.design{
+    font-size: 1.8rem;
+    margin: 2px 4px;
+}
+.btn{
+    padding: 6px 16px;
+    background-color: black;
+    border-radius: 4px;
+   cursor: pointer; 
+   box-shadow: rgb(87 80 80) 1px 1px, rgb(87 80 80) 2px -5px;
+}
+.icon{
+    font-size: 1.5rem;
+    color: white;
+}
+.result-area{
+    height: 123px;
+    font-weight: bolder;
+}
+.border{
+    border: 4px solid black;
+    border-radius: 6px;
+}
+#min_max{
+    display: none;
+}
+#result1{
+    display: flex;
+}
